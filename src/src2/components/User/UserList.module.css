@@ -1,0 +1,36 @@
+/* .table {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} */
+
+.tab {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+table {
+  width: 100%;
+  overflow: auto;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #ededed;
+}
+tbody tr:nth-of-type(odd) {
+  background-color: #d9d8d7;
+}
+
+thead tr {
+  background-color: #f2f2f0;
+}
+
+tr {
+  text-align: left;
+}
+
+td,
+th {
+  padding: 20px;
+}

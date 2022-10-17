@@ -1,0 +1,19 @@
+.nouser {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    flex-direction: column;
+}
+
+.nouser p {
+    color: red;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nouser a{
+  color: #222;
+  font-size: 40px;
+}

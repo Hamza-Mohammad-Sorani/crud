@@ -1,0 +1,40 @@
+.header {
+    background: #2563EB;
+    width: 100%;
+    height: 5rem;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.logo {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+        overflow: hidden;
+
+}
+
+.nav li {
+    margin-left: 1.5rem;
+    font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+    color: #1d4ed8;
+}
